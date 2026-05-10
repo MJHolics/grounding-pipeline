@@ -1,0 +1,24 @@
+# Core
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Grounding DINO
+groundingdino-py
+
+# SAM2
+git+https://github.com/facebookresearch/sam2.git
+
+# Vision
+opencv-python
+Pillow
+supervision
+
+# API 서버
+fastapi
+uvicorn[standard]
+python-multipart
+
+# 유틸
+numpy
+matplotlib
+tqdm
